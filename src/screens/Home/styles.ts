@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
     color: "#FFF",
     padding: 16,
     fontSize: 16,
+    flex: 1,
   },
   buttonText: {
     color: "#fff",
@@ -35,5 +36,12 @@ export const styles = StyleSheet.create({
     backgroundColor: "#31cf67",
     justifyContent: "center",
     alignItems: "center",
+  },
+  form: {
+    width: "100%",
+    flexDirection: "row",
+    gap: 12,
+    marginTop: 36,
+    marginBottom: 42,
   },
 })
